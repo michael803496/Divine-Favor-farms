@@ -1,0 +1,196 @@
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Our birds | Divine Favor Farms</title>
+<meta name="description" content="Divine Favor Farms raises broilers, layers, local chickens, and foreign and local turkey. Order on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e2a1d;--bg2:#143826;--card:#194430;--ink:#f6f1e4;--mute:#b7c7ba;--gold:#f2b632;--gold2:#ffd472;--line:rgba(246,241,228,.14);--on-gold:#1b1405;--r:22px;
+--disp:'Fraunces',Georgia,'Times New Roman',serif;--body:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f1f4ec;--bg2:#e4eadb;--card:#fff;--ink:#12281c;--mute:#4d6153;--gold:#d9960b;--gold2:#b87a00;--line:rgba(18,40,28,.14);--on-gold:#1b1405}}
+:root[data-theme="light"]{--bg:#f1f4ec;--bg2:#e4eadb;--card:#fff;--ink:#12281c;--mute:#4d6153;--gold:#d9960b;--gold2:#b87a00;--line:rgba(18,40,28,.14);--on-gold:#1b1405}
+:root[data-theme="dark"]{--bg:#0e2a1d;--bg2:#143826;--card:#194430;--ink:#f6f1e4;--mute:#b7c7ba;--gold:#f2b632;--gold2:#ffd472;--line:rgba(246,241,228,.14);--on-gold:#1b1405}
+html{scroll-behavior:smooth;scroll-padding-top:84px;height:100%}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--body);overflow-x:hidden;transition:background .3s,color .3s}
+h1,h2,h3{font-family:var(--disp);line-height:1.05;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:110px 0}
+h2{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:700;max-width:16ch}
+.lead{color:var(--mute);max-width:56ch;margin:18px 0 0}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;text-decoration:none;border:1.5px solid var(--line);cursor:pointer;background:none;color:var(--ink);font-family:inherit;font-size:1rem;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:var(--on-gold);border-color:var(--gold);box-shadow:0 12px 30px -12px var(--gold)}
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background .3s,box-shadow .3s}
+header.solid{background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font:800 1.35rem var(--disp);text-decoration:none;display:flex;align-items:center;gap:10px}
+.logo i{width:30px;height:38px;background:var(--gold);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;display:inline-block;box-shadow:inset -5px -6px 0 rgba(0,0,0,.12)}
+.links{display:flex;gap:28px;align-items:center}
+.links a{text-decoration:none;font-weight:500;color:var(--mute);font-size:.95rem}.links a:hover{color:var(--gold)}
+.icon{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--line);background:none;color:var(--ink);cursor:pointer;font-size:1.1rem}
+.burger{display:none}
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding:130px 0 80px;position:relative;overflow:hidden;background:radial-gradient(900px 600px at 85% 20%,color-mix(in srgb,var(--gold) 26%,transparent),transparent 60%),var(--bg)}
+.hero h1{font-size:clamp(3rem,9.5vw,8.2rem);font-weight:800;letter-spacing:-.04em;max-width:11ch}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{max-width:50ch;font-size:1.2rem;color:var(--mute);margin:26px 0 38px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.yolk{position:absolute;right:-6vw;top:50%;width:min(46vw,560px);aspect-ratio:3/4;transform:translateY(-46%);background:linear-gradient(150deg,var(--gold2),var(--gold) 55%,#b9780a);border-radius:50% 50% 50% 50%/62% 62% 38% 38%;box-shadow:inset -40px -50px 80px rgba(120,60,0,.35),0 60px 120px -40px rgba(0,0,0,.5);animation:bob 7s ease-in-out infinite;opacity:.95}
+.yolk::after{content:"";position:absolute;left:18%;top:12%;width:22%;height:30%;background:rgba(255,255,255,.4);border-radius:50%;filter:blur(14px);transform:rotate(25deg)}
+@keyframes bob{50%{transform:translateY(-50%) rotate(2deg)}}
+.hero .wrap{position:relative;z-index:2}
+/* ticker */
+.ticker{background:var(--gold);color:var(--on-gold);overflow:hidden;white-space:nowrap;padding:16px 0;font:700 1.35rem var(--disp)}
+.ticker div{display:inline-block;animation:scroll 28s linear infinite}
+.ticker span{margin:0 26px}
+@keyframes scroll{to{transform:translateX(-50%)}}
+/* products */
+#products{background:var(--bg2)}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:36px 0 34px}
+.tab{padding:10px 22px;border-radius:999px;border:1.5px solid var(--line);background:none;color:var(--ink);font:700 .95rem var(--body);cursor:pointer;transition:.2s}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.prod{background:var(--card);border-radius:var(--r);padding:34px;border:1px solid var(--line);display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;animation:pop .45s both}
+@keyframes pop{from{opacity:0;transform:scale(.97) translateY(10px)}}
+.prod .tag{align-self:flex-start;font-size:.8rem;font-weight:700;background:color-mix(in srgb,var(--gold) 22%,transparent);color:var(--gold2);padding:5px 12px;border-radius:999px}
+.prod h3{font-size:2rem}
+.prod p{color:var(--mute);margin:0;flex:1}
+.prod ul{margin:0;padding:0;list-style:none;display:grid;gap:7px;font-size:.96rem}
+.prod li::before{content:"✓";color:var(--gold);font-weight:800;margin-right:10px}
+.prod .btn{justify-content:center;margin-top:8px}
+.prod .big{position:absolute;right:-10px;top:-16px;font-size:6.5rem;opacity:.1;pointer-events:none}
+/* why */
+.why{display:grid;grid-template-columns:1fr 1.3fr;gap:70px;align-items:start}
+.pts{display:grid;gap:0}
+.pt{padding:28px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:56px 1fr;gap:18px}
+.pt:last-child{border-bottom:1px solid var(--line)}
+.pt b{font:700 1.5rem var(--disp);display:block;margin-bottom:4px}
+.pt span.i{font-size:1.9rem}
+.pt p{margin:0;color:var(--mute)}
+/* steps */
+#process{background:var(--bg2)}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:50px}
+.step{counter-increment:s;padding:28px;border-radius:var(--r);background:var(--card);border:1px solid var(--line)}
+.step::before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--on-gold);font:800 1.2rem var(--disp);margin-bottom:18px}
+.step h3{font-size:1.4rem;margin-bottom:8px}.step p{margin:0;color:var(--mute);font-size:.97rem}
+/* order */
+.order{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+form{background:var(--card);padding:34px;border-radius:var(--r);border:1px solid var(--line);display:grid;gap:18px}
+label{display:grid;gap:7px;font-weight:700;font-size:.92rem}
+input,select,textarea{font:inherit;padding:14px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.err{color:#ff8a7a;font-size:.85rem;font-weight:500;min-height:1em}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+/* faq */
+details{border-top:1px solid var(--line);padding:22px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{font:700 1.3rem var(--disp);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::after{content:"+";color:var(--gold);font-size:1.6rem;line-height:1;transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--mute);margin:12px 0 0;max-width:62ch}
+.faq{max-width:820px;margin-top:40px}
+/* footer */
+footer{background:var(--bg2);padding:70px 0 40px;border-top:1px solid var(--line)}
+.foot{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.foot p{color:var(--mute);margin:10px 0 0}
+.copy{margin-top:50px;color:var(--mute);font-size:.88rem}
+.wa{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:60;width:64px;height:64px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 30px rgba(37,211,102,.5);animation:pulse 2.4s infinite}
+.wa svg{width:34px;height:34px;fill:#fff}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 22px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+@media(max-width:860px){
+ section{padding:80px 0}
+ .why,.order{grid-template-columns:1fr;gap:40px}
+ .burger{display:block}
+ .links{position:fixed;inset:72px 0 auto 0;background:var(--bg);flex-direction:column;padding:28px;gap:22px;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .3s;padding-top:28px}
+ .links.open{transform:none}
+ .yolk{opacity:.35;right:-20vw;width:75vw}
+ .row{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head><body><header id="hd"><div class="wrap"><nav>
+ <a class="logo" href="index.html"><i></i>Divine Favor Farms</a>
+ <div class="links" id="links">
+  <a href="#products">Our birds</a><a href="#why">Why us</a><a href="#process">How it works</a><a href="#faq">Questions</a>
+  <a class="btn gold" href="#order" style="padding:10px 20px;color:var(--on-gold)">Order now</a>
+ </div>
+ <div style="display:flex;gap:10px"><button class="icon" id="theme" aria-label="Switch light or dark theme">◐</button><button class="icon burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button></div>
+</nav></div></header><main id="top"><section class="hero"><div class="yolk" aria-hidden="true"></div><div class="wrap"><h1>Our birds. <em>Honest</em> farming.</h1><p>Divine Favor Farms raises broilers, layers, local chickens, and turkey with care. See what makes our farm right for you.</p><div class="cta"><a class="btn gold" href="order.html">Place an order</a><a class="btn" href="birds.html">See our birds</a></div></div></section><div class="ticker" aria-hidden="true"><div id="tick"></div></div><section id="products"><div class="wrap">
+ <h2 class="rv">Five kinds of birds, raised to order</h2>
+ <p class="lead rv">Pick a category, read what each bird is best for, and message us directly about the one you want.</p>
+ <div class="tabs" role="tablist" id="tabs">
+  <button class="tab" role="tab" aria-selected="true" data-f="all">All birds</button>
+  <button class="tab" role="tab" aria-selected="false" data-f="chicken">Chickens</button>
+  <button class="tab" role="tab" aria-selected="false" data-f="turkey">Turkey</button>
+ </div>
+ <div class="grid" id="grid"></div>
+</div></section></main><footer><div class="wrap"><div class="foot">
+ <div><a class="logo" href="#top"><i></i>Divine Favor Farms</a><p>Broilers, layers, local chickens, and turkey.</p></div>
+ <div><b style="font-family:var(--disp);font-size:1.3rem">Reach us</b><p><a href="https://wa.me/2348141350690">WhatsApp: +234 814 135 0690</a></p></div>
+</div><div class="copy">© <span id="yr"></span> Divine Favor Farms. All rights reserved.</div></div></footer><a class="wa" href="https://wa.me/2348141350690?text=Hello%20Divine%20Favor%20Farms%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+<svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11 19.8L3 29l6.4-2A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-3.8 1.2 1.2-3.7-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.700 8.700 0 0 1-4.300-3.800c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.400s-1.200 1.200-1.200 2.900 1.200 3.300 1.400 3.500 2.400 3.700 5.800 5.100c2.100.9 2.900 1 4 .8.600-.1 1.900-.8 2.200-1.500s.3-1.400.2-1.500-.3-.2-.6-.4z"/></svg></a><script>
+const PHONE="2348141350690";
+const birds=[
+ {id:"Broiler",g:"chicken",e:"🍗",t:"Chicken",d:"Fast-growing meat birds, tender and full-bodied. A favourite for family meals, grills, and events.",f:["Raised for meat","Good size and fast growth","Bulk orders welcome"]},
+ {id:"Layer",g:"chicken",e:"🥚",t:"Chicken",d:"Hardy layers for steady egg production, also available as hens for the pot.",f:["Strong egg producers","Healthy, active birds","Good for starting your own farm"]},
+ {id:"Local Chicken",g:"chicken",e:"🐓",t:"Chicken",d:"Traditional free-range style chicken with firm meat and a rich flavour.",f:["Firm, tasty meat","Ideal for pepper soup and festive dishes","Naturally robust"]},
+ {id:"Foreign Turkey",g:"turkey",e:"🦃",t:"Turkey",d:"Large, meaty turkey that feeds a crowd. Perfect for Christmas, weddings, and big gatherings.",f:["Big birds, plenty of meat","Great for celebrations","Order early for events"]},
+ {id:"Local Turkey",g:"turkey",e:"🦃",t:"Turkey",d:"Local turkey with a distinct traditional taste and lean, flavourful meat.",f:["Rich traditional flavour","Lean meat","Suited to special meals"]}
+];
+const wa=(m)=>`https://wa.me/${PHONE}?text=${encodeURIComponent(m)}`;
+const grid=document.getElementById("grid");
+function render(f){
+ grid.innerHTML=birds.filter(b=>f==="all"||b.g===f).map((b,i)=>`
+ <article class="prod" style="animation-delay:${i*70}ms"><span class="big" aria-hidden="true">${b.e}</span>
+ <span class="tag">${b.t}</span><h3>${b.id}</h3><p>${b.d}</p>
+ <ul>${b.f.map(x=>`<li>${x}</li>`).join("")}</ul>
+ <a class="btn gold" target="_blank" rel="noopener" href="${wa(`Hello Divine Favor Farms, I am interested in ${b.id}. Please share availability and price.`)}">Ask about ${b.id}</a></article>`).join("");
+}
+if(grid)render("all");
+document.getElementById("tabs")?.addEventListener("click",e=>{
+ const t=e.target.closest(".tab");if(!t)return;
+ document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===t));
+ render(t.dataset.f);
+});
+if(document.getElementById("bird"))document.getElementById("bird").innerHTML=birds.map(b=>`<option>${b.id}</option>`).join("");
+const items=["Broilers","Layers","Local Chickens","Foreign Turkey","Local Turkey"];
+const row=items.map(x=>`<span>${x}</span><span>•</span>`).join("");
+if(document.getElementById("tick"))document.getElementById("tick").innerHTML=row.repeat(6);
+if(document.getElementById("yr"))document.getElementById("yr").textContent=new Date().getFullYear();
+/* header + menu */
+const hd=document.getElementById("hd"),links=document.getElementById("links"),bg=document.getElementById("burger");
+addEventListener("scroll",()=>hd.classList.toggle("solid",scrollY>30),{passive:true});
+bg.onclick=()=>{const o=links.classList.toggle("open");bg.setAttribute("aria-expanded",o)};
+links.addEventListener("click",e=>{if(e.target.tagName==="A"){links.classList.remove("open");bg.setAttribute("aria-expanded",false)}});
+/* theme */
+const root=document.documentElement;
+document.getElementById("theme").onclick=()=>{
+ const cur=root.dataset.theme||(matchMedia("(prefers-color-scheme:light)").matches?"light":"dark");
+ const nx=cur==="dark"?"light":"dark";root.dataset.theme=nx;
+ try{localStorage.setItem("dff-theme",nx)}catch(e){}
+};
+try{const s=localStorage.getItem("dff-theme");if(s)root.dataset.theme=s}catch(e){}
+/* reveal */
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+/* order form */
+document.getElementById("form")?.addEventListener("submit",e=>{
+ e.preventDefault();
+ const n=document.getElementById("name").value.trim(),q=parseInt(document.getElementById("qty").value,10);
+ const en=document.getElementById("e-name"),eq=document.getElementById("e-qty");
+ en.textContent=n?"":"Enter your name so we know who to reply to.";
+ eq.textContent=q>0?"":"Enter a quantity of 1 or more.";
+ if(!n||!(q>0))return;
+ const loc=document.getElementById("loc").value.trim(),note=document.getElementById("note").value.trim();
+ const msg=`Hello Divine Favor Farms,\nMy name is ${n}.\nI would like to order: ${q} x ${document.getElementById("bird").value}.`+(loc?`\nLocation: ${loc}.`:"")+(note?`\nNotes: ${note}`:"")+`\nPlease confirm availability and price.`;
+ // Navigate in the current tab so mobile browsers open WhatsApp reliably.
+ window.location.href=wa(msg);
+});
+</script></body></html>
